@@ -61,6 +61,10 @@ def run_download(cookie, starting_page, directory):
     key-value pairs.  Copying from the Chrome dev console's `cookie` field
     would work.
 
+    Example COOKIE value:
+
+        FOO=%5B%5D; BAR=1234
+
     '''
     for page in itertools.count(starting_page):
         response = load_statuses(cookie, page=page)

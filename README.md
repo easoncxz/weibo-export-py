@@ -24,6 +24,10 @@ comments, reposts etc. are no included in the downloaded data.
       key-value pairs.  Copying from the Chrome dev console's `cookie` field
       would work.
 
+      Example COOKIE value:
+
+          FOO=%5B%5D; BAR=1234
+
     Options:
       -s, --starting-page INTEGER  which page to start from, e.g. 5
       -d, --directory PATH         directory to save downloaded JSON files
