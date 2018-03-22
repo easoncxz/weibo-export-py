@@ -1,0 +1,10 @@
+
+# Python virtualenv directory
+.venv
+
+# Python compiled modules
+**/*.pyc
+**/__pycache__
+
+# default download directory
+downloaded
