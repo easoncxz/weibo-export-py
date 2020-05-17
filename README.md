@@ -1,6 +1,12 @@
 weibo-export-py
 ===============
 
+# Project abandoned
+
+Hi, I've moved over to [easoncxz/weibo-export](https://github.com/easoncxz/weibo-export) for a rewrite of this project in Haskell. Please use that instead of this repo.
+
+# About
+
 A basic, shallow Weibo downloader.
 
 The downloaded JSON format is almost entirely what `m.weibo.cn` endpoints
